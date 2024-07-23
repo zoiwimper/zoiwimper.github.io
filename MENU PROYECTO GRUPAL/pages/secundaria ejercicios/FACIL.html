@@ -1,0 +1,65 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios de Secundaria</title>
+    <link rel="stylesheet" href="/css/secuejercicios2.css">
+</head>
+<body>
+    <div class="navbar">
+        <a class="active" href="/pages/secundaria.html">Inicio</a>
+        <a class="info" href="/pages/acercade.html">Acerca de nosotros</a>
+    </div>
+
+    <div class="header">
+        <h1>FÁCIL</h1>
+    </div>
+
+    <div class="formContainer">
+        <div class="header">
+            <h1 style="font-size: small;">Detección de Números Repetidos</h1>
+        </div>
+        
+        <div class="formContent">
+            <p>Ingresa un arreglo de números separados por comas:</p>
+            <input type="text" id="inputArray" placeholder="Ejemplo: 1,2,3,4,3,2,1" style="width: 100%; max-width: 500px; height: 40px; font-size: 16px;">
+            <button onclick="detectRepetitions()">Detectar Repeticiones</button>
+            
+            <h2>Resultados:</h2>
+            <pre id="output"></pre>
+        </div>
+    </div>
+    
+    <div class="formContainer">
+        <div class="header">
+            <h1 style="font-size: small;">Sumar Números Naturales</h1>
+        </div>
+        
+        <div class="formContent">
+            <p>Ingresa un número entero positivo:</p>
+            <input type="number" id="inputNumberSum" min="1" placeholder="Número entero positivo">
+            <button onclick="calculateSum()">Calcular Suma</button>
+            
+            <h2>Resultado:</h2>
+            <pre id="resSum"></pre>
+        </div>
+    </div>
+    
+    <div class="formContainer">
+        <div class="header">
+            <h1 style="font-size: small;">Calcular Factorial</h1>
+        </div>
+        
+        <div class="formContent">
+            <p>Ingresa un número entero no negativo:</p>
+            <input type="number" id="inputNumberFactorial" min="0" placeholder="Número entero no negativo">
+            <button onclick="calcularFactorial()">Calcular Factorial</button>
+            
+            <h2>Resultado:</h2>
+            <pre id="resFactorial"></pre>
+        </div>
+    </div>
+
+    <script src="/js/facilsecu.js"></script>
+</body>
+</html>

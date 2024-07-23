@@ -1,0 +1,54 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios de Secundaria</title>
+    <link rel="stylesheet" href="/css/secuejercicios2.css">
+</head>
+<body>
+    <div class="navbar">
+        <a class="active" href="/pages/secundaria.html">Inicio</a>
+        <a class="info" href="/pages/acercade.html">Acerca de nosotros</a>
+    </div>
+    <div class="header">
+        <h1>DIFICIL</h1>
+    </div>
+    <div class="formContainer">
+        <h2>Verificar números Primos</h2>
+        <p>Pide un número entero positivo y verifica si es primo.</p>
+        <input type="number" id="numPrimo" placeholder="Ingresa un número entero positivo">
+        <button onclick="verificarPrimo()">Verificar</button>
+        <p id="mensajePrimo" class="message"></p>
+    </div>
+    <div class="formContainer">
+        <h2>Verificar números Perfectos</h2>
+        <p>Pide un número entero positivo y verifica si es perfecto.</p>
+        <input type="number" id="numPerfecto" placeholder="Ingresa un número entero positivo">
+        <button onclick="verificarPerfecto()">Verificar</button>
+        <p id="mensajePerfecto" class="message"></p>
+    </div>
+    <div class="formContainer">
+        <h2>Acertijo 1: El número secreto</h2>
+        <p>Adivina el número secreto entre 1 y 100. Tienes 5 intentos.</p>
+        <input type="number" id="numAdivinar" placeholder="Ingresa tu número">
+        <button onclick="adivinarNumero()">Adivinar</button>
+        <p id="mensajeAdivinar" class="message"></p>
+    </div>
+    <div class="formContainer">
+        <h2>Acertijo 2: La suma oculta</h2>
+        <p>Encuentra dos números positivos cuya suma sea 50 y su producto sea 600.</p>
+        <input type="number" id="num1Suma" placeholder="Número 1">
+        <input type="number" id="num2Suma" placeholder="Número 2">
+        <button onclick="verificarSumaProducto()">Verificar</button>
+        <p id="mensajeSumaProducto" class="message"></p>
+    </div>
+    <div class="formContainer">
+        <h2>Probabilidad de Bola Azul</h2>
+        <p>Acertijo 3: ¿Cuál es la probabilidad de sacar una bola azul?</p>
+        <input type="number" id="respuestaUsuario" placeholder="Ingresa tu respuesta">
+        <button onclick="verificarRespuesta()">Verificar</button>
+        <p id="mensajeProbabilidad" class="message"></p>
+    </div>
+    <script src="/js/dificilsecu.js"></script>
+</body>
+</html>

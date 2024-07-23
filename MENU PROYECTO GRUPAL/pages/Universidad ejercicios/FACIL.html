@@ -1,0 +1,66 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/paginas uni/universidadejercicios.css">
+    <title>Calculadora y Conversiones de Números</title>
+</head>
+<body>
+    <div class="container">
+        <h1>CALCULADORA INTELIGENTE</h1>
+        <div class="vertical-container">
+            <div class="calculator">
+                <c>Calculadora</c>
+                <input type="text" id="display" disabled>
+                <div class="buttons">
+                    <button onclick="clearDisplay()">C</button>
+                    <button onclick="appendNumber('1')">1</button>
+                    <button onclick="appendNumber('2')">2</button>
+                    <button onclick="appendNumber('3')">3</button>
+                    <button onclick="appendNumber('+')">+</button>
+                    <button onclick="appendNumber('4')">4</button>
+                    <button onclick="appendNumber('5')">5</button>
+                    <button onclick="appendNumber('6')">6</button>
+                    <button onclick="appendNumber('-')">-</button>
+                    <button onclick="appendNumber('7')">7</button>
+                    <button onclick="appendNumber('8')">8</button>
+                    <button onclick="appendNumber('9')">9</button>
+                    <button onclick="appendNumber('*')">*</button>
+                    <button onclick="appendNumber('.')">.</button>
+                    <button onclick="appendNumber('0')">0</button>
+                    <button onclick="calculate()">=</button>
+                    <button onclick="appendNumber('/')">/</button>
+                </div>
+            </div>
+            <h1>CONVERSIONES DE NÚMEROS</h1>
+            <div class="conversion-section">
+                <div class="switch">
+                    <button id="btnBinToHex" onclick="mostrarBinarioAHex()">Binario a Hexadecimal</button>
+                    <button id="btnHexToBin" onclick="mostrarHexadecimalABin()">Hexadecimal a Binario</button>
+                </div>
+
+                <div id="binarioAHexadecimal" class="conversion">
+                    <h2>Conversión Binario a Hexadecimal</h2>
+                    <div class="form-group">
+                        <label for="binario">Número Binario:</label>
+                        <input type="text" id="binario">
+                        <button onclick="convertirABinario()">Convertir a Hexadecimal</button>
+                    </div>
+                    <div class="respuesta" id="resultadoBinario"></div>
+                </div>
+
+                <div id="hexadecimalABinario" class="conversion">
+                    <h2>Conversión Hexadecimal a Binario</h2>
+                    <div class="form-group">
+                        <label for="hexadecimal">Número Hexadecimal:</label>
+                        <input type="text" id="hexadecimal">
+                        <button onclick="convertirAHexadecimal()">Convertir a Binario</button>
+                    </div>
+                    <div class="respuesta" id="resultadoHexadecimal"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/faciluni.js"></script>
+</body>
+</html>

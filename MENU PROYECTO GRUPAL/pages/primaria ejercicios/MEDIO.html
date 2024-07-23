@@ -1,0 +1,52 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lógica de Comparaciones</title>
+    <link rel="stylesheet" href="/css/primariaejercicios.css">
+</head>
+<body>
+    <div class="navbar">
+        <a class="active" href="/pages/primaria.html">Inicio</a>
+        <a href="/pages/acercade.html">Acerca de nosotros</a>
+    </div>
+
+    <div class="header">
+        <h1>Identificar el Mayor o Menor Número</h1>
+    </div>
+
+    <div class="main-content">
+        <p>Identificar el número mayor dentro de un conjunto de números es una operación básica en matemáticas. El número mayor, también conocido como máximo, es el número más grande entre un grupo de números.</p>
+    </div>
+
+    <div class="box intermedio">
+        <h2>¿Cuál número será el mayor, 8 o 5?</h2>
+        <div class="button-container">
+            <button onclick="compararNumeros(8, 5)">Comparar</button>
+        </div>
+        <p id="e" class="message"></p>
+    </div>
+
+    <div class="box intermedio">
+        <h2>Comparación de Edades</h2>
+        <p>Juan tiene 12 años y María tiene 14 años. ¿Quién es mayor?</p>
+        <div class="button-container">
+            <button onclick="compararEdades(14, 12)">María con 14</button>
+            <button onclick="compararEdades(12, 14)">Juan con 12</button>
+        </div>
+        <p id="p" class="message"></p>
+    </div>
+
+    <div class="box intermedio">
+        <h2>Comparación de Edades</h2>
+        <p>¿Quién es más joven, Pedro de 9 años o Laura de 7 años?</p>
+        <div class="button-container">
+            <button onclick="compararJovenes(9, 7)">Pedro con 9</button>
+            <button onclick="compararJovenes(7, 9)">Laura con 7</button>
+        </div>
+        <p id="o" class="message"></p>
+    </div>
+
+    <script src="/js/medioprimaria.js"></script>
+</body>
+</html>

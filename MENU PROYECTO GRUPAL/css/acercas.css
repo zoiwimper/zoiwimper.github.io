@@ -1,0 +1,190 @@
+body {
+    font-family: 'LXGW WenKai TC', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #90fa06d8;
+    color: white;
+    padding: 20px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+a { 
+    text-decoration: none; 
+    background: none; 
+    color: inherit; 
+}
+
+.logo {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+    list-style-type: none;
+    font-size: 30px;
+    background-color: transparent;
+}
+
+.menu li {
+    animation: fadeIn 3.5s ease-in-out;
+    padding: 10px;
+    color: white;
+}
+
+.inicio, .Acercade, .Infoproyec {
+    background-color: #0c0c0160;
+    border-radius: 7px;
+}
+
+.nombres {
+    color: aliceblue;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    font-size: 35px;
+    transform: translate(-50%, -50%);
+}
+
+article {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.menuacerca1, .menuacerca2 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;           
+    background-color: honeydew;
+    color: black;
+    padding: 112px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 25px;
+    box-shadow: 0 8px 32px rgba(1, 255, 35, 0.185);
+    width: 200%;
+    max-width: 350px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.menuacerca1 {
+    position: absolute;
+    bottom: 105px;
+    left: 1%;
+    padding: 125px;
+    width: 420px;
+    max-width: 900px;
+}
+.menuacerca1 {
+    bottom: -160px;
+}
+
+.menuacerca2 {
+    position: absolute;
+    bottom: 105px;
+    left: 53%;
+    padding: 125px;
+    width: 120%;
+    max-width: 365px;
+}
+.menuacerca2 {
+    bottom: -160px;
+}
+
+.menuacerca3 {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 200%;
+    max-width: 400px;
+    background-color: honeydew;
+    color: black;
+    padding: 100px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 25px;
+    box-shadow: 0 8px 32px rgba(1, 255, 35, 0.185);
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 30px;
+    text-align: center;
+}
+
+.menuacerca3 {
+    bottom: -675px;
+}
+
+.tamañopagina {
+    width: 80%;
+    height: 208vh;
+    margin: auto;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    position: absolute;
+    bottom: 30px;
+    left: 49%;
+    transform: translateX(-50%);
+    opacity: 0;
+    animation: fadeIn 2.5s ease-in-out forwards;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.redes a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.redes a:hover {
+    color: #007bff;
+}
+
+.doxeo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: column;
+}
+
+.doxeo c {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -50px;
+}
+
+.foto img{
+    height:250px;
+    width: 250px;
+    border-radius: 50%;
+    border:10px solid rgba(255, 255, 255, 0.829)
+}
+

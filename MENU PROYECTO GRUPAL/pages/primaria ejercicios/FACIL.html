@@ -1,0 +1,83 @@
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secuencias Numéricas</title>
+    <link rel="stylesheet" href="/css/primariaejercicios.css">
+</head>
+<body>    
+    <div class="navbar">
+        <a class="active" href="/pages/primaria.html">Inicio</a>
+        <a href="/pages/acercade.html">Acerca de nosotros</a>
+    </div>
+
+    <div class="header">
+        <h1>Secuencias Numéricas</h1>
+    </div>
+
+    <div class="main-content">
+        <p>Las secuencias numéricas son conjuntos de números organizados en un orden específico, donde cada número sigue una regla o patrón particular. Estas secuencias pueden ser finitas o infinitas y son una parte fundamental de las matemáticas.</p>
+
+        <div class="box facil">
+            <h2>Secuencia</h2>
+            <p>¿Qué número sigue en la secuencia 2, 4, 6, ...?</p>
+            <div class="button-container">
+                <button onclick="facil1(2)">2</button>
+                <button onclick="facil1(4)">4</button>
+                <button onclick="facil1(6)">6</button>
+                <button onclick="facil1(8)">8</button>
+                <button onclick="facil1(10)">10</button>
+            </div>
+            <p id="mensaje" class="message"></p>
+        </div>
+
+        <div class="box facil">
+            <h2>Patrón</h2>
+            <p>¿Cuál es el patrón en la secuencia 5, 10, 15, ...?</p>
+            <div class="button-container">
+                <button onclick="facil2('sumar 3')">Sumar 3</button>
+                <button onclick="facil2('sumar 5')">Sumar 5</button>
+                <button onclick="facil2('restar por 6')">Restar por 6</button>
+                <button onclick="facil2('divide por 3')">Dividir por 3</button>
+                <button onclick="facil2('multiplicar por 5')">Multiplicar por 5</button>
+            </div>
+            <p id="x" class="message"></p>
+        </div>
+
+        <div class="box facil">
+            <h2>Secuencia</h2>
+            <p>¿Qué número sigue en la secuencia 10, 20, 30, ...?</p>
+            <div class="button-container">
+                <button onclick="facil3(35)">35</button>
+                <button onclick="facil3(40)">40</button>
+                <button onclick="facil3(45)">45</button>
+                <button onclick="facil3(50)">50</button>
+                <button onclick="facil3(55)">55</button>
+            </div>
+            <p id="d" class="message"></p>
+        </div>
+
+        <div class="box facil">
+            <h2>Patrón</h2>
+            <p>¿Cuál es el patrón en la secuencia 2, 4, 8, 16, ...?</p>
+            <div class="button-container">
+                <button onclick="facil4('multiplica por 2')">Multiplicar por 2</button>
+                <button onclick="facil4('sumar 2')">Sumar 2</button>
+                <button onclick="facil4('multiplicar por 4')">Multiplicar por 4</button>
+                <button onclick="facil4('restar 1')">Restar 1</button>
+                <button onclick="facil4('restar 2')">Restar 2</button>
+                <button onclick="facil4('restar 4')">Restar 4</button>
+            </div>
+            <p id="v" class="message"></p>
+        </div>
+    </div>
+
+    <script src="/js/facilprimaria.js"></script>
+    <div class="footer">
+        <p>© UNEMI-INGENIERIA FOTWARE</p>
+    </div>
+</body>
+</html>
