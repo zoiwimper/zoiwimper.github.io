@@ -1,0 +1,61 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios de Secundaria</title>
+    <link rel="stylesheet" href="/css/secuejercicios2.css">
+</head>
+<body>
+    <div class="navbar">
+        <a class="active" href="/pages/secundaria.html">Inicio</a>
+        <a class="info" href="/pages/acercade.html">Acerca de nosotros</a>
+    </div>
+    <div class="header">
+        <h1>MEDIO</h1>
+    </div>
+
+    <div class="formContainer">
+        <h2>Números Pares e Impares en un Rango</h2>
+        <p>Pide dos números enteros y muestra todos los números pares e impares en ese rango.</p>
+        <input type="number" id="rangoInicio" placeholder="Ingresa el número inicial">
+        <input type="number" id="rangoFin" placeholder="Ingresa el número final">
+        <button onclick="mostrarParesImpares()">Mostrar</button>
+        <h4>Resultado:</h4>        
+        <p id="mensajeParesImpares" class="message"></p>
+    </div>
+
+    <div class="formContainer">
+        <h2>Tabla de Multiplicar y/o Sumar</h2>
+        <p>Pide un número entero y tipo de tabla, y genera su tabla de multiplicar o sumar del 1 al 10.</p>
+        <input type="number" id="numTabla" placeholder="Ingresa un número entero">
+        <select id="tipoTabla">
+            <option value="multiplicar">Multiplicar</option>
+            <option value="sumar">Sumar</option>
+        </select>
+        <button onclick="generarTabla()">Generar</button>
+        <p id="mensajeTabla" class="message"></p>
+        
+        <table id="resultadoTabla">
+            <thead>
+                <tr>
+                    <th>Resultado</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="formContainer">
+        <h2>Secuencia de Fibonacci</h2>
+        <p>Pide un número entero positivo y genera esa cantidad de números de la secuencia de Fibonacci.</p>
+        <input type="number" id="numFibonacci" placeholder="Ingresa un número entero positivo" min="1">
+        <button onclick="generarFibonacci()">Generar</button>
+        <p id="mensajeFibonacci" class="message"></p>
+        <h2>Resultado:</h2>
+        <pre id="resultadoFibonacci"></pre>
+    </div>
+
+    <script src="/js/mediosecu.js"></script>
+</body>
+</html>

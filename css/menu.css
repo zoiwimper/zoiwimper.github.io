@@ -1,0 +1,48 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1511406361295-0a1ff814c0ce?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#bienvenido{
+    background-color: beige;
+    text-align: center;
+    text-transform: uppercase;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.formContainer{
+    background-color: honeydew;
+    color: black;
+    padding: 90px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 25px;
+    box-shadow: 0 8px 32px rgba(245, 221, 2, 0.37);
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 30px;
+}
+.secundaria{
+    display:block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #000;
+}
+.primaria{
+    display:block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #000;
+}
+.universidad{
+    display:block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #000;
+}
+

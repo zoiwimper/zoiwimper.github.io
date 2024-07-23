@@ -1,0 +1,48 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios de Arreglos</title>
+    <link rel="stylesheet" href="/css/paginas uni/arreglos.css">
+</head>
+<body>
+    <div class="container">
+        <h1>NUMEROS PERFECTOS EN ARREGLOS</h1>
+        <div id="numeroPerfectos" class="section">
+            <h1>Encontrar Números Perfectos en un Arreglo</h1>
+            <h2>Introduce un arreglo de números:</h2>
+            <div class="form-group">
+                <label for="numeros-perfectos">Números (separados por comas):</label>
+                <input type="text" id="numeros-perfectos" placeholder="Ejemplo: 6, 28, 496, 12">
+                <button onclick="encontrarPerfectos()">Encontrar Perfectos</button>
+                <div id="resultadoPerfectos" class="respuesta"></div>
+            </div>
+        </div>
+
+        <h1>NUMEROS PRIMOS EN ARREGLOS</h1>
+        <div id="numeroPrimos" class="section">
+            <h1>Encontrar Números Primos en un Arreglo</h1>
+            <h2>Introduce un arreglo de números:</h2>
+            <div class="form-group">
+                <label for="numeros-primos">Números (separados por comas):</label>
+                <input type="text" id="numeros-primos" placeholder="Ejemplo: 10, 15, 23, 42">
+                <button onclick="encontrarPrimos()">Encontrar Primos</button>
+                <div id="resultadoPrimos" class="respuesta"></div>
+            </div>
+        </div>
+
+        <h1>PROMEDIO Y NOTAS</h1>
+        <div id="notas-container" class="section">
+            <h1>Calcular Promedio y Moda de Notas</h1>
+            <h2>Introduce un arreglo de notas:</h2>
+            <div class="form-group">
+                <label for="notas-input">Notas (separadas por comas):</label>
+                <input type="text" id="notas-input" placeholder="Ejemplo: 85, 90, 78, 92, 85">
+                <button onclick="calcularPromedioYModa()">Calcular Promedio y Moda</button>
+                <div id="resultado" class="respuesta"></div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/dificiluni.js"></script>
+</body>
+</html>

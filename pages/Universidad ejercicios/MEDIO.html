@@ -1,0 +1,49 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis de Texto</title>
+    <link rel="stylesheet" href="/css/intermediouni.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1>ANÁLISIS DE TEXTO</h1>
+        <div class="sections">
+            <div class="section">
+                <h2>Contar Caracteres y Otros</h2>
+                <textarea id="text-input" placeholder="Inserte su texto aquí"></textarea>
+                <button onclick="analizarTexto()">Analizar</button>
+                <div class="resultado">
+                    <p>Caracteres: <span id="texto-contador">0</span></p>
+                    <p>Vocales: <span id="vocales-contador">0</span></p>
+                    <p>Signos: <span id="signos-contador">0</span></p>
+                    <p>Espacios: <span id="espacios-contador">0</span></p>
+                    <p>Palabras: <span id="palabras-contador">0</span></p>
+                    <p>Dígitos: <span id="digitos-contador">0</span></p>
+                </div>
+            </div>
+            <h1>INVERSIÓN TEXTUAL</h1>
+            <div class="section">
+                <h2>Invertir Cadena de Texto</h2>
+                <textarea id="invert-text-input" placeholder="Inserte su texto aquí"></textarea>
+                <button onclick="invertirTexto()">Invertir</button>
+                <div class="resultado">
+                    <p>Texto Invertido: <span id="texto-invertido"></span></p>
+                </div>
+            </div>
+            <h1>COMPARACIÓN DE PALABRAS</h1>
+            <div class="section">
+                <h2>Comparar frases</h2>
+                <textarea id="palabra1-input" placeholder="Inserte la primera frase aquí"></textarea>
+                <textarea id="palabra2-input" placeholder="Inserte la segunda frase aquí"></textarea>
+                <button onclick="compararFrases()">Comparar</button>
+                <div class="resultado">
+                    <p><span id="resultado-comparacion"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/mediouni.js"></script>
+</body>
+</html>

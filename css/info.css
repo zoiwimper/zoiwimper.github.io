@@ -1,0 +1,120 @@
+body {
+    font-family: 'LXGW WenKai TC', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    right: 340px;
+    justify-content: center;
+    background-color: #90fa06d8;
+    color: white;
+    padding: 50px;
+    width: 200%;
+    box-sizing: border-box;
+    position: relative;
+    top: 2px;
+    border: 5px solid #90fa06;
+}
+
+a {
+    text-decoration: none;
+    background: none;
+    color: inherit;
+}
+
+.logo {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+    list-style-type: none;
+    font-size: 30px;
+    background-color: transparent;
+    padding: 0;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.menu li {
+    animation: fadeIn 3.5s ease-in-out;
+    padding: 10px;
+    color: white;
+}
+
+.inicio, .Acercade, .Infoproyec {
+    background-color: #0c0c0160;
+    border-radius: 7px;
+}
+
+article {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.formContainer {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 250px;
+    position: absolute;
+    top: 35%;
+    left: 30.5%;
+    font-size: 45px;
+    transform: translate(-50%, -50%);
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.contenedor-herramientas {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    background: none;
+}
+
+.herramientas {
+    position: absolute;
+    background: none;
+
+}
+
+#img1 {
+    top: 185px;
+    left: -350px;
+}
+
+#img2 {
+    top: 150px;
+    left: 115px;
+}
+
+#img3 {
+    top: 180px;
+    left: 515px;
+}
+
+.tamañopagina {
+    width: 50%;
+    height: 208vh;
+    margin: auto;
+}
